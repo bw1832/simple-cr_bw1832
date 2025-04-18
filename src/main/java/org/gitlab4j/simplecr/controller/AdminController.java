@@ -61,6 +61,8 @@ public class AdminController {
         ProjectConfig projectConfig;
         try {
 /*테스트 주석처리*/
+/*테스트 주석처리*/
+            /*테스트 주석처리*//*테스트 주석처리*//*테스트 주석처리*//*테스트 주석처리*/
             projectConfig = projectConfigService.getProjectConfig(groupName, projectName);
             if (projectConfig != null) {
                 return (AppResponse.getDataResponse(true, projectConfig));
