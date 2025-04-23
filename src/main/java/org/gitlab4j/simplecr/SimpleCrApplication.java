@@ -19,15 +19,8 @@ public class SimpleCrApplication implements WebMvcConfigurer {
 
 		SpringApplication.run(SimpleCrApplication.class, args);
 	}
-/** 12345 **/
-/** 12345 **/	
-/** 12345 **/	
-    /**
-     * To allow for branch names with slashes a UrlPathHelper must be created so that the path params
-     * are not automatically decoded which breaks request path matching.
-     *
-     * @param configurer the PathMatchConfigurer to set the UrlPathHelper on
-     */
+
+
     @Override
     public void configurePathMatch(PathMatchConfigurer configurer) {
         UrlPathHelper urlPathHelper = new UrlPathHelper();
