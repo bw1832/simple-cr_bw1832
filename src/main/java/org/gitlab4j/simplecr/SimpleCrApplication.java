@@ -19,7 +19,7 @@ public class SimpleCrApplication implements WebMvcConfigurer {
 
 		SpringApplication.run(SimpleCrApplication.class, args);
 	}
-
+/**/
 
     @Override
     public void configurePathMatch(PathMatchConfigurer configurer) {
