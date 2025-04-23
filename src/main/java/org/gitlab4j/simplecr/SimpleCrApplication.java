@@ -22,7 +22,7 @@ public class SimpleCrApplication implements WebMvcConfigurer {
 /**/
 
 	
-
+/**/
     @Override
     public void configurePathMatch(PathMatchConfigurer configurer) {
         UrlPathHelper urlPathHelper = new UrlPathHelper();
